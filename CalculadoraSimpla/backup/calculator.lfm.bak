@@ -1,0 +1,174 @@
+object Form1: TForm1
+  Left = 428
+  Height = 428
+  Top = 99
+  Width = 458
+  Caption = 'Coruja Calculadora'
+  ClientHeight = 428
+  ClientWidth = 458
+  LCLVersion = '1.4.2.0'
+  object EdDisplay: TEdit
+    Left = 16
+    Height = 22
+    Top = 40
+    Width = 424
+    BidiMode = bdRightToLeft
+    Font.Height = -40
+    ParentBidiMode = False
+    ParentFont = False
+    ParentShowHint = False
+    TabOrder = 0
+    Text = '0'
+  end
+  object Button1: TButton
+    Left = 16
+    Height = 72
+    Top = 72
+    Width = 75
+    Caption = '1'
+    OnClick = Num1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 104
+    Height = 72
+    Top = 72
+    Width = 75
+    Caption = '2'
+    OnClick = Num1Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 192
+    Height = 72
+    Top = 72
+    Width = 75
+    Caption = '3'
+    OnClick = Num1Click
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 16
+    Height = 72
+    Top = 160
+    Width = 75
+    Caption = '4'
+    OnClick = Num1Click
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 104
+    Height = 72
+    Top = 160
+    Width = 75
+    Caption = '5'
+    OnClick = Num1Click
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Left = 192
+    Height = 72
+    Top = 160
+    Width = 75
+    Caption = '6'
+    OnClick = Num1Click
+    TabOrder = 6
+  end
+  object Button7: TButton
+    Left = 16
+    Height = 72
+    Top = 248
+    Width = 75
+    Caption = '7'
+    OnClick = Num1Click
+    TabOrder = 7
+  end
+  object Button8: TButton
+    Left = 104
+    Height = 72
+    Top = 248
+    Width = 75
+    Caption = '8'
+    OnClick = Num1Click
+    TabOrder = 8
+  end
+  object Button9: TButton
+    Left = 192
+    Height = 72
+    Top = 248
+    Width = 75
+    Caption = '9'
+    OnClick = Num1Click
+    TabOrder = 9
+  end
+  object Button0: TButton
+    Left = 16
+    Height = 72
+    Top = 336
+    Width = 160
+    Caption = '0'
+    OnClick = Num1Click
+    TabOrder = 10
+  end
+  object Multi: TButton
+    Left = 192
+    Height = 72
+    Top = 336
+    Width = 75
+    Caption = '.'
+    TabOrder = 11
+  end
+  object Divide: TButton
+    Left = 280
+    Height = 72
+    Top = 72
+    Width = 75
+    Caption = '/'
+    OnClick = SumaClick
+    TabOrder = 12
+  end
+  object Button13: TButton
+    Left = 280
+    Height = 72
+    Top = 160
+    Width = 75
+    Caption = '*'
+    OnClick = SumaClick
+    TabOrder = 13
+  end
+  object Resta: TButton
+    Left = 280
+    Height = 72
+    Top = 248
+    Width = 75
+    Caption = '-'
+    OnClick = SumaClick
+    TabOrder = 14
+  end
+  object Suma: TButton
+    Left = 280
+    Height = 72
+    Top = 336
+    Width = 75
+    Caption = '+'
+    OnClick = SumaClick
+    TabOrder = 15
+  end
+  object Clean: TButton
+    Left = 368
+    Height = 160
+    Top = 72
+    Width = 75
+    Caption = 'C'
+    OnClick = CleanClick
+    TabOrder = 16
+  end
+  object Igual: TButton
+    Left = 368
+    Height = 160
+    Top = 248
+    Width = 75
+    Caption = '='
+    TabOrder = 17
+  end
+end
